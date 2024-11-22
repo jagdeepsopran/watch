@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.watch {
+  border: 10px solid rgb(9, 158, 49);
+  padding: 20px;
+  /* width: 100%; */
+  border-radius: 50px;
+  box-shadow: 3px 3px 30px #100808;
+}
+p {
+  /* font-family:'Times New Roman', Times, serif; */
+  /* font-family: Copperplate, Papyrus, fantasy; */
+  font-family: "Sofia", sans-serif;
+  font-size: 100px;
+  font-weight: bold;
+  text-shadow: 3px 3px 10px rgb(9, 158, 49);
+}
